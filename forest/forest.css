@@ -1,0 +1,61 @@
+#container-countdown {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown {
+    font-size: 60px;
+    margin-top:100px;
+    background: linear-gradient(90deg, rgba(190,223,65,0.7539390756302521) 42%, rgba(47,106,42,0.8883928571428571) 79%);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#myButton {
+    display: none;
+}
+
+#myButtonBack {
+     margin-top: 250px;
+     background: linear-gradient(90deg, rgba(190,223,65,0.7539390756302521) 42%, rgba(47,106,42,0.8883928571428571) 79%);
+    padding: 15px;
+    border-radius: 25px;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+     }
+
+
+@media all and (max-width:500px) {
+    #myButton {
+        display: block;
+        background: linear-gradient(90deg, rgba(190,223,65,0.7539390756302521) 42%, rgba(47,106,42,0.8883928571428571) 79%);
+        padding: 15px;
+        border-radius: 25px;
+        font-size: 15px;
+         }
+
+        body {
+            background: linear-gradient(90deg, rgba(190,223,65,0.7539390756302521) 42%, rgba(47,106,42,0.8883928571428571) 79%);
+        }
+
+        #myVideo {
+            width: 300px;
+            height: 300px;
+        }
+    }
+

@@ -1,0 +1,48 @@
+#header {
+    display:flex;
+    justify-content: center;
+    background: #80BCBD;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 37px;
+    font-family: 'Lemon', serif;
+    color: #F9F7C9;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+#btn{
+    margin-top: 300px;
+    background: #80BCBD; 
+    padding: 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Lemon', serif;
+}
+
+#btn:hover {
+    background: linear-gradient(90deg, rgba(60,35,255,0.7931547619047619) 14%, rgba(244,69,252,1) 87%);
+
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}

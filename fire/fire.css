@@ -1,0 +1,67 @@
+#container-countdown {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown {
+    font-size: 60px;
+    margin-top:100px;
+    background: linear-gradient(90deg, rgba(255,253,35,0.7931547619047619) 14%, rgba(252,109,69,1) 87%);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#myButton {
+    display: none;
+}
+
+#myButtonBack {
+     margin-top: 250px;
+    background: linear-gradient(90deg, rgba(255,253,35,0.7931547619047619) 14%, rgba(252,109,69,1) 87%);
+    padding: 15px;
+    border-radius: 25px;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+     }
+
+
+@media all and (max-width:500px) {
+    #myVideo {
+        width: 300px;
+        height:300px;
+    }
+
+    #myButton {
+        display: block;
+        background: linear-gradient(90deg, rgba(255,253,35,0.7931547619047619) 14%, rgba(252,109,69,1) 87%);
+        padding: 15px;
+        border-radius: 25px;
+        font-size: 15px;
+        color: black;
+         }
+
+        body {
+            background: linear-gradient(90deg, rgba(255,253,35,0.7931547619047619) 14%, rgba(252,109,69,1) 87%);
+        }
+
+        #myVideo {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
